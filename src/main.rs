@@ -1,8 +1,5 @@
-use crate::y2022::day1;
-
-pub mod y2022;
+pub mod day1;
 
 fn main() {
-    let ans = day1::solve();
-    println!("{ans}");
+    println!("day1 result: {}", day1::solve());
 }
