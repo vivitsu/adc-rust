@@ -22,7 +22,7 @@ fn extract_slice(bytes: &[u8], curr: usize, offset: usize) -> Option<&str> {
 
 fn main() {
     let mut result = 0;
-    for line in read_to_string("y2023/src/bin/day1/input.txt").unwrap().lines() {
+    for line in read_to_string("y2023/src/bin/day1-2023/input.txt").unwrap().lines() {
         let mut vals = (0, 0);
         let mut first = false;
         let bytes = line.as_bytes();

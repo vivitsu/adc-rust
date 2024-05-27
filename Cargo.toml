@@ -1,6 +1,9 @@
 [workspace]
-members = [
+members = [ "y2015",
     "y2023",
 ]
 
 resolver = "2"
+
+[workspace.dependencies]
+anyhow = "1"
