@@ -11,7 +11,7 @@ fn main() -> anyhow::Result<()> {
             floor -= 1;
         }
 
-        if floor == -1  && basement == 0 {
+        if floor == -1 && basement == 0 {
             // floors start from 1
             basement = i + 1;
         }
